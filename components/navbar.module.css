@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+.navbar .img {
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar .logoText {
+  margin-left: -13px;
+  gap: 0px;
+}/*# sourceMappingURL=navbar.module.css.map */
