@@ -4,7 +4,7 @@ import React from "react";
 const About = () => {
   return (
     <section className="flex flex-col items-center justify-center w-full top-0 right-0 left-0 bottom-0 py-10 bg-white">
-      <h2 className="flex font-serif font-bold text-22xl">About Us</h2>
+      <h2 className="flex font-serif font-bold text-2xl">About Us</h2>
       <div className=" flex flex-col-reverse px-7 items-center md:px-16 lg:px-24 justify-center p-7 w-full space-y-5  md:flex-row gap-8 md:gap-6 md:justify-start md:items-start">
         <div className="flex md:w-1/2 ">
           <Image src="/hero.jpg" alt="company" width={700} height={40} />
