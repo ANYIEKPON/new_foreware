@@ -25,10 +25,10 @@ const Navbar = () => {
             className={`${styles.img} min-h-2`}
           />
           <div className={styles.logoText}>
-            <span className="flex text-blue-500 font-serif text-[7px] my-0 sm:text-[10px]">
+            <span className="flex text-blue-500 font-serif text-[9px] my-0 sm:text-[10px]">
               FOREWARE
             </span>
-            <span className="flex text-orange-400 font-serif text-[7px] my-0 sm:text-[10px]">
+            <span className="flex text-orange-400 font-serif text-[9px] my-0 sm:text-[10px]">
               TECHNOLOGIES
             </span>
           </div>
@@ -41,7 +41,7 @@ const Navbar = () => {
             <Link href="/">
               <li>Home</li>
             </Link>
-            <Link href="/about">
+            <Link href="/about-us">
               <li>About us</li>
             </Link>
             <Link href="/services">
@@ -55,11 +55,13 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
-        <div className="flex bg-black text-white py-2 px-3 items-center rounded-full sm:py-2 sm:px-5">
-          <button className="flex text-[10px] font-montserrat sm:text-[14px] ">
-            Contact us
-          </button>
-        </div>
+        <Link href="/contact">
+          <div className="flex bg-black text-white py-2 px-3 items-center rounded-full sm:py-2 sm:px-5">
+            <button className="flex text-[10px] font-montserrat sm:text-[14px] ">
+              Contact us
+            </button>
+          </div>
+        </Link>
 
         {/* Mobile Hamburger */}
         <div onClick={handleOpenNav} className="flex lg:hidden">
@@ -72,7 +74,7 @@ const Navbar = () => {
             <Link href="/">
               <li>Home</li>
             </Link>
-            <Link href="/about">
+            <Link href="/about-us">
               <li>About us</li>
             </Link>
             <Link href="/services">

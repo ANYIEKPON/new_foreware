@@ -1,4 +1,5 @@
 import Image from "@/node_modules/next/image";
+import Link from "@/node_modules/next/link";
 import React from "react";
 
 const About = () => {
@@ -18,9 +19,11 @@ const About = () => {
             consectetur adipisicing elit. Fuga deleniti harum accusantium
             aspernatur placeat incidunt?
           </p>
-          <div className="flex rounded-full bg-blue-500 text-white p-3">
-            <button>Contact Us</button>
-          </div>
+          <Link href="/contact">
+            <div className="flex rounded-full bg-blue-500 text-white p-3 py-2">
+              <button>Contact Us</button>
+            </div>
+          </Link>
         </div>
       </div>
     </section>

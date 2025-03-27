@@ -13,21 +13,21 @@ const Contact = () => {
           <div className="flex w-full lg:w-full">
             <form className=" flex flex-col gap-4 px-5 w-full">
               <div className="flex flex-col gap-3">
-                <label>Enter Your Name *</label>
+                <label>Company's Name *</label>
                 <input
                   type="text"
                   placeholder="Name *"
                   name="name"
-                  className="flex rounded-lg p-2"
+                  className="flex rounded-lg p-2 outline-none text-black"
                 />
               </div>
               <div className="flex flex-col gap-3">
-                <label>Enter Your Email *</label>
+                <label>Company's Email *</label>
                 <input
                   type="email"
                   placeholder="Email *"
                   name="email"
-                  className="flex rounded-lg p-2"
+                  className="flex rounded-lg p-2 outline-none text-black"
                 />
               </div>
               <div className="flex flex-col gap-3">
@@ -37,7 +37,7 @@ const Contact = () => {
                   name="message"
                   rows={3}
                   cols={30}
-                  className="flex rounded-xl p-2"
+                  className="flex rounded-xl p-2 outline-none text-black"
                 />
               </div>
               <div className="">
@@ -47,7 +47,7 @@ const Contact = () => {
               </div>
             </form>
           </div>
-          <div className="flex flex-col hidden lg:block items-start justify-start w-full px-5 mt-5 space-y-8">
+          <div className="flex flex-col hidden lg:block items-start justify-start w-full px-5 mt-5 space-y-4">
             <div className="flex flex-col items-start gap-2 justify-start w-1/2">
               <div className="flex flex-row items-center justify-center gap-4">
                 <div className="flex text-orange-500">
@@ -76,7 +76,7 @@ const Contact = () => {
                 <span className="flex text-2xl">Business Hours</span>
               </div>
               <span className="flex pl-10">
-                Mon - Fri .... 10am - 8pm, Sat, Sun .... Closed{" "}
+                Mon - Fri .... 8am - 5pm, Sat, Sun .... Closed{" "}
               </span>
             </div>
           </div>
