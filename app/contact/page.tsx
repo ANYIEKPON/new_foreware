@@ -121,7 +121,7 @@ const page = () => {
               border: 0,
               width: "90%",
             }}
-            allowfullscreen=""
+            allowfullscreen="yes"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
