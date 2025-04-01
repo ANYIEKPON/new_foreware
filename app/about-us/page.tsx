@@ -19,7 +19,7 @@ const page = () => {
       </section>
       <section className="flex flex-col w-full md:flex-row p-7 bg-[#e7e7e7] md:w-[70%] mb-5 items-center md:items-start md:justify-start justify-center gap-8 md:gap-10 md:px-10">
         <div className="flex sm:px-5 md:h-[320px]  text-3xl sm:justify-center lg:w-3/5 sm:items-center md:w-3/5 md:item-end md:justify-end md:text-[25px] md:py-5">
-          <span className="flex md:w-5/5 md:text-[35px] md:items-end md:justify-end text-orange-400 md:leading-tight">
+          <span className="flex md:w-5/5 md:text-[35px] md:items-end md:justify-end text-[#f1c7a4] md:leading-tight">
             Your Reliable Technology Partner for Business Success
           </span>
         </div>
@@ -36,7 +36,7 @@ const page = () => {
       <section className="flex mt-16 items-center justify-center">
         <Sponsors />
       </section>
-      <section className="flex flex-col px-20 py-10 lg:flex-row w-full lg:px-20 lg:py-10 items-center justify-center gap-5">
+      <section className="flex flex-col px-5 py-10 lg:flex-row w-full lg:px-20 lg:py-10 items-center justify-center gap-5">
         <div className="flex w-full lg:w-1/2 flex-col ">
           <h2 className="flex text-[40px] w-full">Why Businesses Choose Us</h2>
           <div>

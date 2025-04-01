@@ -22,7 +22,7 @@ const page = () => {
         </section>
       </section>
       <section className="flex flex-col lg:flex-row-reverse w-4/5 gap-7 bg-white md:flex-row-reverse">
-        <div className="flex flex-col w-full lg:w-full bg-[#fff] py-10 space-y-5 border-20 shadow-xl">
+        <div className="flex flex-col w-full lg:w-full bg-[#fff] py-10 space-y-5 border-20">
           <h2 className="flex font-bold text-2xl w-full text-center justify-center">
             Send us a message
           </h2>
@@ -62,7 +62,7 @@ const page = () => {
             </div>
           </form>
         </div>
-        <div className="flex flex-col lg:block items-start justify-start w-full px-5 mt-5  bg-[#f3f2f2] shadow-xl space-y-5 py-10 border-10">
+        <div className="flex flex-col lg:block items-start justify-start w-full px-5 mt-5  bg-[#f3f2f2] space-y-5 py-10 border-10">
           <h2 className="flex font-bold text-2xl w-full justify-start -mt-4">
             Get in Touch
           </h2>
