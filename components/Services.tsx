@@ -27,9 +27,9 @@ const Services = () => {
           <h4 className="flex text-1xl font-serif font-semibold">
             Software Development
           </h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
-            ducimus laudantium minima quod dicta cum!
+          <p className="flex font-sans">
+            We develop custom software solutions that enhance efficiency,
+            innovation, and business growth.
           </p>
           <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
@@ -38,13 +38,13 @@ const Services = () => {
           </div>
         </div>
         <div className="flex flex-col gap-3 bg-[#f8f8f8] p-5 rounded-xl">
-          <Image src="/software.png" alt="software" width={70} height={70} />
+          <Image src="/cloud-depl.svg" alt="software" width={70} height={70} />
           <h4 className="flex text-1xl font-serif font-semibold">
-            Software Development
+            Cloud Deployment
           </h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
-            ducimus laudantium minima quod dicta cum!
+          <p className="flex font-sans">
+            Foreware Technologies offers tailored cloud deployment services to
+            enhance business scalability and operational efficiency
           </p>
           <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
@@ -53,13 +53,14 @@ const Services = () => {
           </div>
         </div>
         <div className="flex flex-col gap-3 bg-[#f8f8f8] p-5 rounded-xl">
-          <Image src="/software.png" alt="software" width={70} height={70} />
+          <Image src="/entrprise.png" alt="software" width={70} height={70} />
           <h4 className="flex text-1xl font-serif font-semibold">
-            Software Development
+            Enterprise Solutions
           </h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
-            ducimus laudantium minima quod dicta cum!
+          <p className="flex font-sans">
+            Foreware Technologies offers tailored enterprise solutions,
+            partnering with industry leaders to optimize business processes and
+            drive growth
           </p>
           <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
@@ -68,13 +69,13 @@ const Services = () => {
           </div>
         </div>
         <div className="flex flex-col gap-3 bg-[#f8f8f8] p-5 rounded-xl">
-          <Image src="/software.png" alt="software" width={70} height={70} />
+          <Image src="/data_manage.png" alt="software" width={70} height={70} />
           <h4 className="flex text-1xl font-serif font-semibold">
-            Software Development
+            Data Management
           </h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
-            ducimus laudantium minima quod dicta cum!
+          <p className="flex font-sans">
+            Foreware Technologies offers comprehensive data management services,
+            ensuring efficient data handling, security, and accessibility
           </p>
           <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
@@ -83,28 +84,14 @@ const Services = () => {
           </div>
         </div>
         <div className="flex flex-col gap-3 bg-[#f8f8f8] p-5 rounded-xl">
-          <Image src="/software.png" alt="software" width={70} height={70} />
+          <Image src="/consulting.png" alt="software" width={70} height={70} />
           <h4 className="flex text-1xl font-serif font-semibold">
-            Software Development
+            Consulting and Training
           </h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
-            ducimus laudantium minima quod dicta cum!
-          </p>
-          <div>
-            <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
-              Know More
-            </button>
-          </div>
-        </div>
-        <div className="flex flex-col gap-3 bg-[#f8f8f8] p-5 rounded-xl">
-          <Image src="/software.png" alt="software" width={70} height={70} />
-          <h4 className="flex text-1xl font-serif font-semibold">
-            Software Development
-          </h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
-            ducimus laudantium minima quod dicta cum!
+          <p className="flex font-sans">
+            Foreware Technologies provides expert consulting and training
+            services, empowering businesses with the knowledge for optimal
+            performance.
           </p>
           <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">

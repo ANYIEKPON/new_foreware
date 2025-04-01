@@ -4,7 +4,7 @@ import React from "react";
 const Sponsors = () => {
   return (
     <section className="flex flex-col items-center justify-center gap-4">
-      <h2 className="flex text-2xl font-bold">Our Partners</h2>
+      <h2 className="flex text-2xl  md:text-3xl">Our Partners</h2>
       <div className="flex flex-col md:flex-row justify-center items-center gap-2">
         <div className="flex flex-col items-center justify-center">
           <Image src="/zoho.png" alt="zoho" width={220} height={80} />

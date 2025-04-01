@@ -12,6 +12,10 @@ const Navbar = () => {
     setOpennav((prev) => !prev);
   };
 
+  const handleClose = () => {
+    setOpennav(!openNav);
+  };
+
   return (
     <nav className="sticky  z-30 bg-white top-0 max-container w-full mt-4 flex flex-row px-2 sm:px-3 items-center justify-between md:px-11">
       {/* Logo */}
@@ -71,19 +75,19 @@ const Navbar = () => {
       {openNav && (
         <div className=" absolute top-[60px] z-70 flex items-center px-0 w-full left-0 bottom-0 right-0 h-full lg:hidden bg-red-300 ">
           <ul className="flex flex-col top-0 left-0 absolute w-full gap-10 font-montserrat px-10 py-5 items-start justify-start text-black bg-white min-h-full">
-            <Link href="/">
+            <Link onClick={handleClose} href="/">
               <li>Home</li>
             </Link>
-            <Link href="/about-us">
+            <Link onClick={handleClose} href="/about-us">
               <li>About us</li>
             </Link>
-            <Link href="/services">
+            <Link onClick={handleClose} href="/services">
               <li>Services</li>
             </Link>
-            <Link href="/industries">
+            <Link onClick={handleClose} href="/industries">
               <li>Industries</li>
             </Link>
-            <Link href="/blog">
+            <Link onClick={handleClose} href="/blog">
               <li>Blog</li>
             </Link>
           </ul>
