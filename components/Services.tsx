@@ -31,11 +31,11 @@ const Services = () => {
             We develop custom software solutions that enhance efficiency,
             innovation, and business growth.
           </p>
-          <div>
+          {/* <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
               Know More
             </button>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-col gap-3 bg-[#f8f8f8] p-5 rounded-xl">
           <Image src="/cloud-depl.svg" alt="software" width={70} height={70} />
@@ -46,11 +46,11 @@ const Services = () => {
             Foreware Technologies offers tailored cloud deployment services to
             enhance business scalability and operational efficiency
           </p>
-          <div>
+          {/* <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
               Know More
             </button>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-col gap-3 bg-[#f8f8f8] p-5 rounded-xl">
           <Image src="/entrprise.png" alt="software" width={70} height={70} />
@@ -62,11 +62,11 @@ const Services = () => {
             partnering with industry leaders to optimize business processes and
             drive growth
           </p>
-          <div>
+          {/* <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
               Know More
             </button>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-col gap-3 bg-[#f8f8f8] p-5 rounded-xl">
           <Image src="/data_manage.png" alt="software" width={70} height={70} />
@@ -77,11 +77,11 @@ const Services = () => {
             Foreware Technologies offers comprehensive data management services,
             ensuring efficient data handling, security, and accessibility
           </p>
-          <div>
+          {/* <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
               Know More
             </button>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-col gap-3 bg-[#f8f8f8] p-5 rounded-xl">
           <Image src="/consulting.png" alt="software" width={70} height={70} />
@@ -93,11 +93,11 @@ const Services = () => {
             services, empowering businesses with the knowledge for optimal
             performance.
           </p>
-          <div>
+          {/* <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
               Know More
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="hidden flex top-0 right-0 left-0 bottom-0 flex-row items-center justify-center overflow-hidden w-full h-fit gap-1 px-1 pb-1 bg-red-300 lg:max-w-[60%]">

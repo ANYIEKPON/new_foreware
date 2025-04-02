@@ -48,7 +48,7 @@ const Navbar = () => {
             <Link href="/about-us">
               <li>About us</li>
             </Link>
-            <Link href="/services">
+            <Link href="#services">
               <li>Services</li>
             </Link>
             <Link href="#">
@@ -81,7 +81,7 @@ const Navbar = () => {
             <Link onClick={handleClose} href="/about-us">
               <li>About us</li>
             </Link>
-            <Link onClick={handleClose} href="/services">
+            <Link onClick={handleClose} href="#services">
               <li>Services</li>
             </Link>
             <Link onClick={handleClose} href="#">

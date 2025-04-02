@@ -11,7 +11,9 @@ const page = () => {
     <main>
       <Hero />
       <About />
-      <Services />
+      <div id="services">
+        <Services />
+      </div>
       <Different />
       <Sponsors />
       <Contact />
