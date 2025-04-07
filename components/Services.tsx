@@ -43,8 +43,8 @@ const Services = () => {
             Cloud Deployment
           </h4>
           <p className="flex font-sans">
-            Foreware Technologies offers tailored cloud deployment services to
-            enhance business scalability and operational efficiency
+            We offer tailored cloud deployment services to enhance business
+            scalability and operational efficiency
           </p>
           {/* <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
@@ -58,9 +58,8 @@ const Services = () => {
             Enterprise Solutions
           </h4>
           <p className="flex font-sans">
-            Foreware Technologies offers tailored enterprise solutions,
-            partnering with industry leaders to optimize business processes and
-            drive growth
+            We implement budget-friendly enterprise systems, partnering with
+            global OEMs to streamline and optimize business operations.
           </p>
           {/* <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
@@ -74,8 +73,8 @@ const Services = () => {
             Data Management
           </h4>
           <p className="flex font-sans">
-            Foreware Technologies offers comprehensive data management services,
-            ensuring efficient data handling, security, and accessibility
+            We develop comprehensive data management services, ensuring
+            efficient data handling, security, and accessibility
           </p>
           {/* <div>
             <button className="flex rounded-full bg-blue-500 text-white px-3 py-1">
@@ -89,8 +88,8 @@ const Services = () => {
             Consulting and Training
           </h4>
           <p className="flex font-sans">
-            Foreware Technologies provides expert consulting and training
-            services, empowering businesses with the knowledge for optimal
+            We provide expert training services, empowering individuals and
+            corporate organizations with in-demand skills for optimal
             performance.
           </p>
           {/* <div>

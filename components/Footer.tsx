@@ -72,7 +72,7 @@ const Footer = () => {
               <IoCallOutline /> <span>+234 816 4699 021</span>
             </li>
             <li className="flex flex-row items-center gap-2">
-              <IoMailOpenOutline /> <span>info@forwaretechnologies.com</span>
+              <IoMailOpenOutline /> <span>info@forewaretechnologies.com</span>
             </li>
           </ul>
         </div>

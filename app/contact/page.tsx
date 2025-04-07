@@ -16,8 +16,8 @@ const page = () => {
             Contact Us
           </span>
           <p className="flex w-full text-[14px] text-center justify-center sm:text-[18px]">
-            Foreware is ready to provide the right solution according to your
-            needs
+            Foreware is ready to provide the right solution and technologies
+            based on your needs.
           </p>
         </section>
       </section>
@@ -28,7 +28,7 @@ const page = () => {
           </h2>
           <form className=" flex flex-col gap-4 px-5 w-full">
             <div className="flex flex-col gap-3">
-              <label>Company's Name *</label>
+              <label>First Name *</label>
               <input
                 type="text"
                 placeholder="Name *"
@@ -37,11 +37,20 @@ const page = () => {
               />
             </div>
             <div className="flex flex-col gap-3">
-              <label>Company's Email *</label>
+              <label>Email *</label>
               <input
                 type="email"
                 placeholder="Email *"
                 name="email"
+                className="flex rounded-lg p-2 outline-none text-black bg-[#f3f2f2]"
+              />
+            </div>
+            <div className="flex flex-col gap-3">
+              <label>Phone No. *</label>
+              <input
+                type="number"
+                placeholder="Phone Number *"
+                name="number"
                 className="flex rounded-lg p-2 outline-none text-black bg-[#f3f2f2]"
               />
             </div>

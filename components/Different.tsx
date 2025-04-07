@@ -6,16 +6,10 @@ const Different = () => {
       <h1 className="flex text-2xl font-bold">What Makes us Different?</h1>
       <div className="flex gap-6 flex-col md:px-16 lg:px-24 md:flex-row">
         <p>
-          At Foreware Technologies, we&apos;re all about helping businesses
-          thrive in today&apos;s digital landscape. Our team is passionate about
-          harnessing the power of technology to drive innovation.
+          At Foreware Technologies, we are dedicated to helping businesses
+          succeed in a technology-driven world. Our team is passionate about
+          using technology to fuel innovation and growth.
         </p>
-        {/* <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
-          voluptatibus tempore laudantium placeat. Rem, suscipit, beatae facere
-          similique minus amet fugiat temporibus libero modi illum maiores ad
-          corrupti est nesciunt.
-        </p> */}
       </div>
     </section>
   );
