@@ -48,8 +48,8 @@ const page = () => {
             <div className="flex flex-col gap-3">
               <label>Phone No. *</label>
               <input
-                type="number"
-                placeholder="Phone Number *"
+                type="text"
+                placeholder="Number"
                 name="number"
                 className="flex rounded-lg p-2 outline-none text-black bg-[#f3f2f2]"
               />
